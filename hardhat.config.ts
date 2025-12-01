@@ -65,6 +65,7 @@ const config: HardhatUserConfig = {
             },
         ],
     },
+    /** @TODO Change to Sepolia */
     networks: {
         'arbitrum-sepolia': {
             eid: EndpointId.ARBSEP_V2_TESTNET,

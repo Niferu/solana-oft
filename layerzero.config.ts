@@ -5,6 +5,7 @@ import { OAppEnforcedOption, OmniPointHardhat } from '@layerzerolabs/toolbox-har
 
 import { getOftStoreAddress } from './tasks/solana'
 
+/** @TODO Change to Sepolia */
 // Note:  Do not use address for EVM OmniPointHardhat contracts.  Contracts are loaded using hardhat-deploy.
 // If you do use an address, ensure artifacts exists.
 const arbitrumContract: OmniPointHardhat = {
