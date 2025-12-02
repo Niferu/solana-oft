@@ -65,11 +65,10 @@ const config: HardhatUserConfig = {
             },
         ],
     },
-    /** @TODO Change to Sepolia */
     networks: {
-        'arbitrum-sepolia': {
-            eid: EndpointId.ARBSEP_V2_TESTNET,
-            url: process.env.RPC_URL_ARB_SEPOLIA || 'https://arbitrum-sepolia.gateway.tenderly.co',
+        'sepolia-sepolia': {
+            eid: EndpointId.SEPOLIA_V2_TESTNET,
+            url: process.env.SEPOLIA_RPC_URL || 'https://1rpc.io/sepolia',
             accounts,
         },
         hardhat: {
