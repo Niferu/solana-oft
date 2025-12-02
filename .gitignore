@@ -7,10 +7,12 @@ target
 typechain
 typechain-types
 
+# Solana localhost
+test-ledger
+
 # Hardhat files
 cache
 artifacts
-
 
 # LayerZero specific files
 .layerzero

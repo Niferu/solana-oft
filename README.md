@@ -122,11 +122,9 @@ cargo install --git https://github.com/solana-foundation/anchor --tag v0.31.1 an
     - We recommend that you request 5 devnet SOL, which should be sufficient for this walkthrough. For the example here, we will deploy to **Solana Devnet**.
     - If you hit rate limits with the above `airdrop` command, you can also use the [official Solana faucet](https://faucet.solana.com/).
 - Solana RPC
-
   - Also set the `RPC_URL_SOLANA_TESTNET` value. Note that while the naming used here is `TESTNET`, it refers to the [Solana Devnet](https://docs.layerzero.network/v2/developers/evm/technical-reference/deployed-contracts#solana-testnet). We use `TESTNET` to keep it consistent with the existing EVM testnets.
 
 - EVM Deployer:
-
   - Set up your EVM deployer address/account via the `.env`
   - You can specify either `MNEMONIC` or `PRIVATE_KEY`:
 
